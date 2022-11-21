@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+
+
+section {
+    padding: 50px 0 0;
+}
+
+section .title3 {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+section .title3::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 3px;
+    background: #999999;
+    transform: translateX(-50%);
+}
+
+
+.img-product {
+    width: 40%;
+}
+
+.both-img-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 6px 0 0;
+}
+
+.content-product {
+    width: 20%;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.content {
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.thanhPhan {
+    font-size: 25px;
+    margin: 10px 0 0;
+}
+
+.infoProduct {
+    line-height: 30px;
+}
+
+.lineProduct {
+    width: 300px;
+    color: #999999;
+    border-bottom-style: dotted;
+}
